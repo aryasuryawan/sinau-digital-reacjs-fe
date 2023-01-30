@@ -1,23 +1,45 @@
-# Getting Started with Create React App
+# Sinau Digital (.com) Front End Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
 
-## Available Scripts
+Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat dengan menggunakan Tailwindcss. Project ini berupa sebuah website e-learning talenta digital di Indonesia.
 
-In the project directory, you can run:
+## Interaction Flow
+
+### Pada tahap tugas front end alur halaman adalah:
+
+1. Visitor sampai ke halaman home
+2. Visitor memilih training bootcamp yang diinginkan. Sehingga masuk ke halaman detail produk training
+
+### Alternatif alurnya adalah:
+
+1. Visitor sampai ke halaman home
+2. Visitor memilih kategori training, misal kategori web development bootcamp untuk melihat daftar web development boot camp yang tersedia
+3. Visitor memilih training bootcamp yang diinginkan, misal javascript fullstack developer. Sehingga masuk ke halaman detail produk training
+
+![My Image](screencast.png)
+
+### Credit: Kelompok 9
+
+- Muhamad Arya Kurniawan (Arya)
+- Samuel Christopher Santo (Samuel)
+- Reynaldi Ramadhana Iman (Aldi)
+- Ikliliya Zahwa Maulidiya (Ikliliya)
+- Izac Aqsha Ghifari (Izac)
+
+## Page: https://sinaudigital.vercel.app/
+
+
+## Menjalakan Script
+Jalanka dengan perintah:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Jalankan aplikasi dalam mode development .\
+Open [http://localhost:3000](http://localhost:3000) untuk melihat di web browser
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
