@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Sandra 2.0 Dompet Dhuafa Fundraising Management System",
+    "content": "Hahahahaha. Oh wait you’re serious. Let me laugh even harder.",
+    "image": "https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Faset%20web%20(5).png&w=640&q=75",
+    "group": "ERP",
+    "publishedAt": "2022-05-22"
+  },
+  {
+    "id": 2,
+    "title": "AhadPOS 3 Implementation in 7 Modern Groceries", 
+     "content": "Hahahahaha. Oh wait you’re serious. Let me laugh even harder.",
+    "image": "https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Faset%20web%20(5).png&w=640&q=75",
+    "group": "Implementation",
+    "publishedAt": "2022-05-22"
+  },
+  {
+    "id": 3,
+    "title": "Benefis - Programs and Beneficiaries Information System",
+    "content": "Hahahahaha. Oh wait you’re serious. Let me laugh even harder.",
+    "image": "https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Faset%20web%20(5).png&w=640&q=75",
+    "group": "ERP",
+    "publishedAt": "2022-05-22"
+  },
+  {
+    "id": 4,
+    "title": "International Islamic University Malaysia website",
+    "content": "Hahahahaha. Oh wait you’re serious. Let me laugh even harder.",
+    "image": "../assets/foto-arya.jpeg",
+    "group": "Website",
+    "publishedAt": "2022-05-22"
+  },
+  {
+    "id": 5,
+    "title": "Kitabisa.com SEO Setups",
+    "content": "Hahahahaha. Oh wait you’re serious. Let me laugh even harder.",
+    "image": "https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Faset%20web%20(5).png&w=640&q=75",
+    "group": "SEO",
+    "publishedAt": "2022-05-22"
+  }
+]
