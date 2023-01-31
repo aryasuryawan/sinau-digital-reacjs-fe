@@ -42,32 +42,5 @@ var Boxproduct = function (props) {
     );  
   }  
 
-var BoxproductDetail = function (props) {  
-    //ALl data arry  
-    var product = props.arrydata.map(function (data) {  
-        
-      return (
-        <div className="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center pb-6" key={data.id}>
-             <div className="mb-6" >
-                <img src={(data.image)} className="rounded-md" alt="produk" /></div>
-             <div className="font-bold text-xl px-4 my-2 ">
-                <Link to={`/product/${data.id}`}>{data.title}</Link>
-            </div>
-        </div>
-        
-      )
-      
-   });  
-    return (  
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {product}
-        </div> 
-        
-    );  
-
-   
-
-      
-  }  
-
+  
  export default ProductGrids; 
