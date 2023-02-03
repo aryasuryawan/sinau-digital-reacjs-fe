@@ -1,0 +1,29 @@
+CREATE TABLE `course` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(75) NOT NULL,
+  `desc` VARCHAR (250) NULL,
+  `price` INT(10) NULL,
+  `content` TEXT NULL,
+  `category` VARCHAR(40),
+  `image` VARCHAR(250) ,
+  `startAt` TIMESTAMP ,
+  `finishAt` TIMESTAMP ,
+  `createdAt` TIMESTAMP ,
+  `updatedAt` TIMESTAMP ,
+  `isDeleted` INT(1) not null,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO `course` (`id`, `title`, `desc`, `price`, `content`, `category`, `image`, `startAt`, `finishAt`, `createdAt`, `updatedAt`, `isDeleted`) VALUES
+  (1, 'Human Resourge Generalist', 
+  'Belajar human resources dari pakar dan standar industri, kamu juga akan jalani fase sertifikasi profesi BNSP di sini', 7000000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Bootcamp', 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Fuiux-image.jpeg&w=640&q=75', '2023-01-01 15:14:46', '2023-03-04 15:37:47', '2023-01-01 15:14:46', '2023-01-01 15:14:46', 0),
+
+  (2, 'UI/UX Designer & Product Manager', 
+  'Belajar UX Research Bagi Pemula Dalam Persiapan Menghadapi Industri Teknologi Yang Semakin Berkembang Khususnya UI/UX', 3000000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Bootcamp', 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Fuiux-image.jpeg&w=640&q=75', '2023-01-01 15:14:46', '2023-03-04 15:37:47', '2023-01-01 15:14:46', '2023-01-01 15:14:46', 0),
+
+   (3, 'Full-Stack Web Developer', 
+  'Belajar UX Research Bagi Pemula Dalam Persiapan Menghadapi Industri Teknologi Yang Semakin Berkembang Khususnya UI/UX', 3000000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Bootcamp', 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Ffullstack-image.jpeg&w=640&q=75', '2023-01-01 15:14:46', '2023-03-04 15:37:47', '2023-01-01 15:14:46', '2023-01-01 15:14:46', 0),
+
+   (4, 'Full-Stack Digital Marketing + Sertifikasi BNSP', 
+  'Belajar Digital Marketing dengan Job Guarantee Program paling terjangkau di Indonesia. Apabila setelah lulus kamu masih menganggur dalam 365 hari dapatkan refund 110%.', 5000000, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'Bootcamp', 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fhms%2Fdigmar-image.png&w=640&q=75', '2023-01-01 15:14:46', '2023-03-04 15:37:47', '2023-01-01 15:14:46', '2023-01-01 15:14:46', 0);
+

@@ -1,7 +1,6 @@
 // import ListPortofolio from './components/ListPortofolio';
 import Hero from '../components/Hero';
-import AboutFront from '../components/AboutFront';
-import ProductGrids from '../components/ProductGrids';
+import CourseGrid from '../components/CourseList';
 
 
 function Home() {
@@ -9,7 +8,10 @@ function Home() {
     <div>
         <Hero />
         {/* <AboutFront /> */}
-        <ProductGrids />
+        
+            <CourseGrid />
+        
+        
     </div>
   );
 }

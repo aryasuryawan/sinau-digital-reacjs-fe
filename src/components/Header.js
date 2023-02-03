@@ -13,7 +13,7 @@ function Header() {
     <div className="bg-white py-2 md:py-4 shadow-md">
     <div className="container px-6 mx-auto md:flex md:items-center">
       <div className="flex justify-between items-center text-2xl font-bold text-indigo-500">
-        <Link to="/"><img src={logosinau}  alt="Logo" class="h-[40px]" /></Link>
+        <Link to="/"><img src={logosinau}  alt="Logo" className="h-[40px]" /></Link>
         <button className="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle" 
         onClick={clickButton}>
           <i className="fas fa-bars"></i>
