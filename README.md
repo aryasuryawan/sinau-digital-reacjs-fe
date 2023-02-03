@@ -48,3 +48,4 @@ Ini menggabungkan React dengan benar dalam mode produksi dan mengoptimalkan buil
 
 Build diperkecil dan nama file menyertakan hash.\
 Aplikasi Anda siap diterapkan!
+# sinau-digital-reacjs-fe
